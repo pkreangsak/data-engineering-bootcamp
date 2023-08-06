@@ -1,7 +1,8 @@
 #!/bin/bash
 
-API_KEY='YOUR_API_KEY'
-COLLECTION_ID='YOUR_COLLECTION_ID'
+API_KEY='$2b$10$2JnizxTWV10DK6E97Qzna.fEqimEWWyR9WPucuyweEyOrl6UJcfEa'
+COLLECTION_ID='64cdfbd18e4aa6225ecb0800'
+
 
 curl -XGET \
     -H "X-Master-key: $API_KEY" \
